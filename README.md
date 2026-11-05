@@ -3,6 +3,12 @@
 A Vectrex game: a unicorn racing up a curving rainbow road, viewed
 the way Web Wars views its web. Built with VectreC (CMOC), tested in VIDE.
 
+> Personal hobby project, inspired by *Web Wars* and *Robot Unicorn Attack*. Not affiliated with the makers of either game.
+
+## Play it
+
+Download `rainbow.bin` from the [latest release](../../releases) and run it in a Vectrex emulator such as VIDE (**Vecci → Run** → pick `rainbow.bin`), or load it onto a flash cartridge to play on a real Vectrex.
+
 ## Files
 
 | File | Purpose |
@@ -17,9 +23,17 @@ the way Web Wars views its web. Built with VectreC (CMOC), tested in VIDE.
 
 ## Build and run
 
+**Requirements:** [CMOC](http://sarrazip.com/dev/cmoc.html) with Vectrex support, and the VectreC standard library. Point the `VECTREC` environment variable at your VectreC folder:
+
+```bash
+export VECTREC=/path/to/vectrec
+```
+
 In VS Code, press **Cmd-Shift-B**, or run in the terminal:
 
-    cmoc --vectrex -I $VECTREC/stdlib -L $VECTREC/stdlib -o rainbow.bin main.c
+```bash
+cmoc --vectrex -I $VECTREC/stdlib -L $VECTREC/stdlib -o rainbow.bin main.c
+```
 
 Then in VIDE: **Vecci → Run** → pick `rainbow.bin`.
 
@@ -60,3 +74,7 @@ is near the top of `main.c`.
 | Tumbleweed | Rolls sideways across lanes | Jump or dodge |
 | Hobble | Rope across two lanes | Jump |
 | Eagle | Flies overhead shadowing your lane, then fires a fireball | Dodge the fireball; jumping doesn't help |
+
+## Credits
+
+Music is an original composition.
