@@ -3,6 +3,12 @@
 A Vectrex game: a unicorn racing up a curving rainbow road, viewed
 the way Web Wars views its web. Built with VectreC (CMOC), tested in VIDE.
 
+<p align="center">
+  <img src="images/rainbow_run_pic1.png" width="30%" alt="Rainbow Run screenshot 1">
+  <img src="images/rainbow_run_pic2.png" width="30%" alt="Rainbow Run screenshot 2">
+  <img src="images/rainbow_run_pic3.png" width="30%" alt="Rainbow Run screenshot 3">
+</p>
+
 > Personal hobby project, inspired by *Web Wars* and *Robot Unicorn Attack*. Not affiliated with the makers of either game.
 
 ## Play it
