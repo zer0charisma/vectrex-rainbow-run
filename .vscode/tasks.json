@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Rainbow Run",
+      "type": "shell",
+      "command": "cmoc --vectrex -I \"$VECTREC/stdlib\" -L \"$VECTREC/stdlib\" -o rainbow.bin main.c",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}
